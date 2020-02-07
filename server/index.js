@@ -7,6 +7,7 @@ const app = express();
 const port = 6969;
 const db = require("./db.js");
 
+app.use(express.static(DIST_DIR));
 app.use("/:id/", express.static(DIST_DIR));
 app.use(parser.urlencoded({ extended: true }));
 

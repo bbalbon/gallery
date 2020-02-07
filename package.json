@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "seed": "node ./server/seedHard.js",
+    "seed": "node ./server/seed.js",
     "react-dev": "webpack -w",
-    "start": "nodemon ./server/index.js",
+    "start": "node ./server/index.js",
     "deps": "npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader webpack-cli webpack"
   },
   "author": "Kevin Gutierrez",
