@@ -90,7 +90,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="galleryContainer">
         <div className="buttonText">
           <div className="fullViewButton">
             <FullView />
