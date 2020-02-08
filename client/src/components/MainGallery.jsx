@@ -24,7 +24,7 @@ class MainGallery extends React.Component {
     return (
       <div className="displayWrap">
         <div className="mainImage">
-          <img src={this.state.display}></img>
+          <img className="mainImage" src={this.state.display}></img>
         </div>
       </div>
     );
